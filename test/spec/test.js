@@ -3,11 +3,14 @@
 (function () {
     'use strict';
 
-    describe('Give it some context', function () {
-        describe('maybe a bit more context here', function () {
-            it('should run here few assertions', function () {
+    describe('List Test', function () {
+        it('should have a list', function () {
+        	expect(1).to.equal(2);
+        });
 
-            });
+        it('should have at least 1 list item', function (){
+        	expect(1).to.equal(2);
+
         });
     });
 })();
